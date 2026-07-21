@@ -1,0 +1,13 @@
+﻿{
+  "profile": "default",
+  "region": "us-east-2",
+  "configuration": "Release",
+  "framework": "net8.0",
+  "function-runtime": "dotnet8",
+  "function-memory-size": 512,
+  "function-timeout": 30,
+  "function-handler": "DynamoWebApp::DynamoWebApp.LambdaEntryPoint::FunctionHandlerAsync",
+  "function-name": "DynamoWebApp",
+  "s3-bucket": "dynamowebapp-deploy-bucket",
+  "template": "serverless.template"
+}
